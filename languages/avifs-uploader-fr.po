@@ -1,0 +1,97 @@
+# French translation for AVIFS Uploader
+# Copyright (C) 2024 Slendev
+# This file is distributed under the same license as the AVIFS Uploader package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: AVIFS Uploader 1.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/slendev/wp-avifs-uploader/issues\n"
+"POT-Creation-Date: 2024-01-15 10:00+0000\n"
+"PO-Revision-Date: 2024-01-15 10:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French <fr@li.org>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: avifs-uploader\n"
+
+#: avifs-uploader.php:111
+msgid ""
+"AVIFS Uploader requires PHP version 5.6 or higher. Your current version is "
+"%s."
+msgstr "AVIFS Uploader nécessite PHP version 5.6 ou supérieure. Votre version actuelle est %s."
+
+#: avifs-uploader.php:117
+msgid ""
+"AVIFS Uploader requires WordPress version 4.7 or higher. Your current "
+"version is %s."
+msgstr "AVIFS Uploader nécessite WordPress version 4.7 ou supérieure. Votre version actuelle est %s."
+
+#: avifs-uploader.php:127
+msgid "Settings"
+msgstr "Réglages"
+
+#: avifs-uploader.php:141
+#: avifs-uploader.php:231
+msgid "AVIFS Uploader Settings"
+msgstr "Réglages AVIFS Uploader"
+
+#: avifs-uploader.php:142
+msgid "AVIFS Uploader"
+msgstr "AVIFS Uploader"
+
+#: avifs-uploader.php:168
+msgid "AVIFS Upload Settings"
+msgstr "Réglages de téléversement AVIFS"
+
+#: avifs-uploader.php:175
+msgid "Allowed User Roles"
+msgstr "Rôles utilisateur autorisés"
+
+#: avifs-uploader.php:182
+msgid "Maximum File Size (MB)"
+msgstr "Taille maximale du fichier (Mo)"
+
+#: avifs-uploader.php:206
+msgid "Configure the settings for AVIFS Sequence file uploads."
+msgstr "Configurez les réglages pour le téléversement des fichiers de séquence AVIFS."
+
+#: avifs-uploader.php:227
+msgid "MB"
+msgstr "Mo"
+
+#: avifs-uploader.php:230
+#, php-format
+msgid "Default: %1$d MB. WordPress maximum upload size: %2$d MB."
+msgstr "Défaut : %1$d Mo. Taille maximale de téléversement WordPress : %2$d Mo."
+
+#: avifs-uploader.php:251
+msgid ""
+"The uploads directory is not writable. AVIFS Uploader cannot update "
+".htaccess for security."
+msgstr "Le répertoire de téléversements n'est pas accessible en écriture. AVIFS Uploader ne peut pas mettre à jour .htaccess pour la sécurité."
+
+#: avifs-uploader.php:329
+msgid "Invalid AVIFS file."
+msgstr "Fichier AVIFS invalide."
+
+#: avifs-uploader.php:358
+msgid "Your user role is not allowed to upload AVIFS Sequence files."
+msgstr "Votre rôle utilisateur n'est pas autorisé à téléverser des fichiers de séquence AVIFS."
+
+#: avifs-uploader.php:367
+#, php-format
+msgid "AVIF Sequence files must be smaller than %s MB."
+msgstr "Les fichiers de séquence AVIF doivent être plus petits que %s Mo."
+
+#: avifs-uploader.php:427
+msgid ""
+"AVIFS Uploader: Could not automatically update .htaccess. Please ensure "
+"your server is Apache with mod_mime enabled, and that the uploads "
+"directory is writable. You may need to manually add the following rules to "
+"your .htaccess file:"
+msgstr "AVIFS Uploader : Impossible de mettre à jour automatiquement .htaccess. Veuillez vous assurer que votre serveur est Apache avec mod_mime activé et que le répertoire de téléversements est accessible en écriture. Vous devrez peut-être ajouter manuellement les règles suivantes à votre fichier .htaccess :"
